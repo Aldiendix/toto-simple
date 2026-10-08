@@ -9,3 +9,6 @@ models/**/.cache/
 *.log
 .env
 .env.*
+dist_stdout.txt
+dist_stderr.txt
+toto_simple_error.log

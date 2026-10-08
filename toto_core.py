@@ -111,7 +111,8 @@ class TotoSimple:
         if not has_local_weights(self.weights):
             raise FileNotFoundError(
                 f"Local Toto weights not found at {self.weights}. "
-                "Run download_model.py once (needs internet that one time)."
+                "This repo should already include models/Toto-2.0-22m "
+                "(config.json and model.safetensors). No Hugging Face download."
             )
         from toto2 import Toto2Model
 
