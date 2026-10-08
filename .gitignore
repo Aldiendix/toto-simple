@@ -1,0 +1,11 @@
+.venv/
+build/
+dist/
+release/
+__pycache__/
+*.pyc
+*.pyo
+models/**/.cache/
+*.log
+.env
+.env.*

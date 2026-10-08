@@ -1,0 +1,4 @@
+toto-models
+numpy>=1.26.0
+pandas>=2.2.0
+pyinstaller>=6.0.0
